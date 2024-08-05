@@ -2,61 +2,61 @@
 import {ref, computed} from "vue";
 import { useRouter } from 'vue-router';
 
-const weight1 = ref(3);
-const taste1 = ref('百花蜜');
-const quantity1 = ref(0);
-const result1 = ref(0);
+const weight1 = ref('');
+const taste1 = ref('');
+const quantity1 = ref('');
+const result1 = ref('');
 const description1 = ref('');
 
-const taste2 = ref('百花蜜');
-const quantity2 = ref(0);
-const result2 = ref(0);
+const taste2 = ref('');
+const quantity2 = ref('');
+const result2 = ref('');
 const description2 = ref('');
 
-const taste3 = ref('百花蜜');
-const quantity3 = ref(0);
-const result3 = ref(0);
+const taste3 = ref('');
+const quantity3 = ref('');
+const result3 = ref('');
 const description3 = ref('');
 
-const taste4 = ref('百花蜜');
-const quantity4 = ref(0);
-const result4 = ref(0);
+const taste4 = ref('');
+const quantity4 = ref('');
+const result4 = ref('');
 const description4 = ref('');
 
-const taste5 = ref('百花蜜');
-const quantity5 = ref(0);
-const result5 = ref(0);
+const taste5 = ref('');
+const quantity5 = ref('');
+const result5 = ref('');
 const description5 = ref('');
 
-const taste6 = ref('百花蜜');
-const quantity6 = ref(0);
-const result6 = ref(0);
+const taste6 = ref('');
+const quantity6 = ref('');
+const result6 = ref('');
 const description6 = ref('');
 
-const taste7 = ref('綠茶香');
-const quantity7 = ref(0);
-const result7 = ref(0);
+const taste7 = ref('');
+const quantity7 = ref('');
+const result7 = ref('');
 
-const taste8 = ref('小');
-const quantity8 = ref(0);
-const result8 = ref(0);
+const taste8 = ref('');
+const quantity8 = ref('');
+const result8 = ref('');
 
-const quantity9 = ref(0);
-const result9 = ref(0);
+const quantity9 = ref('');
+const result9 = ref('');
 
-const quantity10 = ref(0);
-const result10 = ref(0);
+const quantity10 = ref('');
+const result10 = ref('');
 
-const taste11 = ref('茶花');
-const quantity11 = ref(0);
-const result11 = ref(0);
+const taste11 = ref('');
+const quantity11 = ref('');
+const result11 = ref('');
 
-const taste12 = ref('罐裝');
-const quantity12 = ref(0);
-const result12 = ref(0);
+const taste12 = ref('');
+const quantity12 = ref('');
+const result12 = ref('');
 
-const quantity13 = ref(0);
-const result13 = ref(0);
+const quantity13 = ref('');
+const result13 = ref('');
 
 const descriptions = {
   '百花蜜': '集結數百種花盛開時的花蜜，集百花之精華，口感多層次豐富，甜度偏清甜不膩口。',
@@ -220,14 +220,14 @@ const submitForm = () => {
                         <div class="weight">
                             <span class="title">重量</span>
                             <select name="weight"  v-model="weight1" @change="calculateTotal1">
-                                <option selected="selected" value="3">3公斤</option>
+                                <option value="3">3公斤</option>
                                 <option value="5">5公斤</option>
                             </select>    
                         </div>
                         <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste1" @change="calculateTotal1">
-                                <option selected="selected" value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
+                                <option value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
                                 <option value="咸豐草蜜" :data-description="descriptions['咸豐草蜜']">咸豐草蜜</option>
                                 <option value="烏桕蜜" :data-description="descriptions['烏桕蜜']">烏桕蜜</option>
                                 <option value="荔枝蜜" :data-description="descriptions['荔枝蜜']">荔枝蜜</option>
@@ -254,7 +254,7 @@ const submitForm = () => {
                       <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste2" @change="calculateTotal2">
-                                <option selected="selected" value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
+                                <option value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
                                 <option value="咸豐草蜜" :data-description="descriptions['咸豐草蜜']">咸豐草蜜</option>
                                 <option value="烏桕蜜" :data-description="descriptions['烏桕蜜']">烏桕蜜</option>
                                 <option value="荔枝蜜" :data-description="descriptions['荔枝蜜']">荔枝蜜</option>
@@ -282,7 +282,7 @@ const submitForm = () => {
                       <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste3" @change="calculateTotal3">
-                                <option selected="selected" value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
+                                <option value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
                                 <option value="咸豐草蜜" :data-description="descriptions['咸豐草蜜']">咸豐草蜜</option>
                                 <option value="烏桕蜜" :data-description="descriptions['烏桕蜜']">烏桕蜜</option>
                                 <option value="荔枝蜜" :data-description="descriptions['荔枝蜜']">荔枝蜜</option>
@@ -309,7 +309,7 @@ const submitForm = () => {
                       <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste4" @change="calculateTotal4">
-                                <option selected="selected" value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
+                                <option value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
                                 <option value="咸豐草蜜" :data-description="descriptions['咸豐草蜜']">咸豐草蜜</option>
                                 <option value="烏桕蜜" :data-description="descriptions['烏桕蜜']">烏桕蜜</option>
                                 <option value="荔枝蜜" :data-description="descriptions['荔枝蜜']">荔枝蜜</option>
@@ -339,7 +339,7 @@ const submitForm = () => {
                       <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste5" @change="calculateTotal5">
-                                <option selected="selected" value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
+                                <option value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
                                 <option value="咸豐草蜜" :data-description="descriptions['咸豐草蜜']">咸豐草蜜</option>
                                 <option value="烏桕蜜" :data-description="descriptions['烏桕蜜']">烏桕蜜</option>
                                 <option value="荔枝蜜" :data-description="descriptions['荔枝蜜']">荔枝蜜</option>
@@ -366,7 +366,7 @@ const submitForm = () => {
                       <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste6" @change="calculateTotal6">
-                                <option selected="selected" value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
+                                <option value="百花蜜" :data-description="descriptions['百花蜜']">百花蜜</option>
                                 <option value="咸豐草蜜" :data-description="descriptions['咸豐草蜜']">咸豐草蜜</option>
                                 <option value="烏桕蜜" :data-description="descriptions['烏桕蜜']">烏桕蜜</option>
                                 <option value="荔枝蜜" :data-description="descriptions['荔枝蜜']">荔枝蜜</option>
@@ -396,7 +396,7 @@ const submitForm = () => {
                       <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste7" @change="calculateTotal7">
-                                <option selected="selected" value="綠茶香">綠茶香</option>
+                                <option value="綠茶香">綠茶香</option>
                                 <option value="香橙香">香橙香</option>
                                 <option value="桂花香">桂花香</option>
                                 <option value="天然香">天然香</option>
@@ -419,7 +419,7 @@ const submitForm = () => {
                       <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste8" @change="calculateTotal8">
-                                <option selected="selected" value="小">小</option>
+                                <option value="小">小</option>
                                 <option value="大">大</option>
                             </select>
                         </div>
@@ -469,7 +469,7 @@ const submitForm = () => {
                         <div class="taste">
                           <span class="title">口味</span>
                             <select v-model="taste11" @change="calculateTotal11">
-                              <option selected="selected" value="茶花">茶花</option>
+                              <option  value="茶花">茶花</option>
                                 <option value="咸豐草花">咸豐草花</option>
                                 <option value="油菜花">油菜花</option>
                                 <option value="小花蔓澤蘭花
@@ -494,7 +494,7 @@ const submitForm = () => {
                         <div class="taste">
                             <span class="title">口味</span>
                             <select v-model="taste12" @change="calculateTotal12">
-                                <option selected="selected" value="膠囊">膠囊</option>
+                                <option value="膠囊">膠囊</option>
                                 <option value="罐裝"> 蜂王乳罐裝</option>
                             </select>
                         </div>

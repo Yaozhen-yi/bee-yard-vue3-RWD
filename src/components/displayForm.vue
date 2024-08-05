@@ -285,9 +285,36 @@ div{
 .product h2{
     font-size: 5rem;
 }
-/*純蜜 */
-.pure_honey .title{
+.product .title{
+    font-size: 3.5rem;
+}
+.material{
+    text-align:left
+}
+.material .img{
+    width: 100%;
+}
+.material p{
     font-size: 3rem;
+}
+.material span{
+    font-size: 3rem;
+}
+/*總金額 */
+.total p{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.total span{
+    font-size: 4.5rem;
+}
+}
+
+@media (min-width: 1024px) {
+/*訂購商品資訊 */
+/*純蜜 */
+.product .title{
+    font-size: 3.5rem;
 }
 .material{
     text-align:left
