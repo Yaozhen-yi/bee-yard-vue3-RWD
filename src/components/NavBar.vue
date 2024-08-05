@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1280px) {
     .navbar-brand{
         margin-left:50px;
         text-align: center;
