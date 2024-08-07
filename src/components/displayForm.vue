@@ -64,14 +64,6 @@ onMounted(() => {
 });
 // 檢查值是否不為空
 const isVisible = (value) => value !== '' && value !== null && value !== undefined;
-
-function submitOrder() {
-    const submitButton = document.querySelector('.btn');
-    submitButton.textContent = "送出成功";
-
-    submitButton.disabled = true;
-    alert("送出完成!")
-}
 </script>
 
 
@@ -206,7 +198,7 @@ function submitOrder() {
         <div class="total">
             <p v-show="isVisible(formData.total)">商品總金額: <span>{{ formData.total }}</span></p>
         </div>
-        <button type="button" class="btn" onclick="submitOrder()">確認送出</button>
+        
     </div>
   </template>
 
