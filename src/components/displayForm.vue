@@ -198,7 +198,6 @@ const isVisible = (value) => value !== '' && value !== null && value !== undefin
         <div class="total">
             <p v-show="isVisible(formData.total)">商品總金額: <span>{{ formData.total }}</span></p>
         </div>
-        
     </div>
   </template>
 
