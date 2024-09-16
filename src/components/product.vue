@@ -4,13 +4,13 @@ import { useRouter } from 'vue-router';
 
 const weight1 = ref('');
 const taste1 = ref('');
-const quantity1 = ref('');
-const result1 = ref('');
+const quantity1 = ref(0);
+const result1 = ref(0);
 const description1 = ref('');
 
 const taste2 = ref('');
-const quantity2 = ref('');
-const result2 = ref('');
+const quantity2 =  ref(0);
+const result2 =  ref(0);
 const description2 = ref('');
 
 const taste3 = ref('');
@@ -87,65 +87,65 @@ const priceList = {
 
 const calculateTotal1 = () =>{
   const price = priceList[weight1.value][taste1.value];
-  result1.value = price * quantity1.value;
+  result1.value = price * Number(quantity1.value);
   description1.value = descriptions[taste1.value];
 }
 const calculateTotal2 = () =>{
   const price = priceList['窄口瓶裝純蜜系列'][taste2.value];
-  result2.value = price * quantity2.value;
+  result2.value = price * Number(quantity2.value);
   description2.value = descriptions[taste2.value];
 }
 const calculateTotal3 = () =>{
   const price = priceList['果糖瓶裝純蜜系列'][taste3.value];
-  result3.value = price * quantity3.value;
+  result3.value = price * Number(quantity3.value);
   description3.value = descriptions[taste3.value];
 }
 const calculateTotal4 = () =>{
   const price = priceList['隨身瓶裝純蜜系列'][taste4.value];
-  result4.value = price * quantity4.value;
+  result4.value = price * Number(quantity4.value);
   description4.value = descriptions[taste4.value];
 }
 const calculateTotal5 = () =>{
   const price = priceList['蜂蜜禮盒(寬口瓶)'][taste5.value];
-  result5.value = price * quantity5.value;
+  result5.value = price * Number(quantity5.value);
   description5.value = descriptions[taste5.value];
 }
 const calculateTotal6 = () =>{
   const price = priceList['蜂蜜禮盒(窄口瓶)'][taste6.value];
-  result6.value = price * quantity6.value;
+  result6.value = price * Number(quantity6.value);
   description6.value = descriptions[taste6.value];
 }
 const calculateTotal7 = () =>{
   const price = priceList['護唇膏'][taste7.value];
-  result7.value = price * quantity7.value;
+  result7.value = price * Number(quantity7.value);
 }
 const calculateTotal8 = () =>{
   const price = priceList['蜂蜜枇杷喉糖'][taste8.value];
-  result8.value = price * quantity8.value;
+  result8.value = price * Number(quantity8.value);
 }
 const calculateTotal9 = () =>{
   const price = priceList['蜂蜜水果酵素'];
-  result9.value = price * quantity9.value;
+  result9.value = price * Number(quantity9.value);
 }
 const calculateTotal10 = () =>{
   const price = priceList['蜂蜜醋'];
-  result10.value = price * quantity10.value;
+  result10.value = price * Number(quantity10.value);
 }
 const calculateTotal11 = () =>{
   const price = priceList['罐裝花粉粒'][taste11.value];
-  result11.value = price * quantity11.value;
+  result11.value = price * Number(quantity11.value);
 }
 const calculateTotal12 = () =>{
   const price = priceList['蜂王乳/膠囊'][taste12.value];
-  result12.value = price * quantity12.value;
+  result12.value = price * Number(quantity12.value);
 }
 const calculateTotal13 = () =>{
   const price = priceList['蜂膠'];
-  result13.value = price * quantity13.value;
+  result13.value = price * Number(quantity13.value);
 }
 
 const total = computed(() => {
-   return result1.value + result2.value + result3.value + result4.value + result5.value + result6.value + result7.value +result8.value + result9.value + result10.value + result11.value + result12.value + result13.value;
+   return ( Number(result1.value) + Number(result2.value) + Number(result3.value) + Number(result4.value) + Number(result5.value) + Number(result6.value) + Number(result7.value) + Number(result8.value) + Number(result9.value) + Number(result10.value) + Number(result11.value) + Number(result12.value) + Number(result13.value) );
 });
 
 const router = useRouter();
