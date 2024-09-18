@@ -210,33 +210,32 @@ div{
     width: 100%;
 }
 .people h2{
-    font-size: 3rem;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
 }
 .people p{
-    font-size: 1.5rem;
+    font-size: 20px;
     margin-left: 2rem;
     font-weight: 700;
 }
 .people span{
     color: #EF5350;
-    font-size: 2rem;
+    font-size: 20px;
 }
 /*訂購商品資訊 */
 .product h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 25px;
     font-weight: 700;
 }
-/*純蜜 */
 .product .title{
-    font-size: 2rem;
-    margin-left: 2rem;
+    font-size: 20px;
+    margin-left: 20px;
 }
 .product div{
     border-bottom: 1px solid black;
-    margin: 1rem 0;
+    margin: 10px 0;
 }
 .material{
     text-align:left
@@ -245,47 +244,47 @@ div{
     width: 100%;
 }
 .material p{
-    font-size: 1.5rem;
-    margin-left: 2rem;
+    font-size: 20px;
+    margin-left: 20px;
     font-weight: 700;
 }
 .material span{
     color: #EF5350;
-    font-size: 2rem;
-    margin-left: 2rem;
+    font-size: 25px;
+    margin-left: 20px;
     font-weight: 700;
 }
 /*總金額 */
 .total{
-    font-size: 3rem;
+    font-size: 25px;
     text-align: center;
     margin: 1%;
 }
 .total span{
     color: #EF5350;
-    font-size: 3rem;
-    margin-left: 2rem;
+    font-size: 30px;
+    margin-left: 20px;
     font-weight: 700;
 }
 
 @media (min-width: 768px) {
     .people h2{
-    font-size: 5rem;
+    font-size: 30px;
 }
 .people p{
-    font-size: 3rem;
+    font-size: 25px;
 }
 .people span{
     color: #EF5350;
-    font-size: 3.5rem;
-    margin-left: 1rem;
+    font-size: 30px;
+    margin-left: 10px;
 }
 /*訂購商品資訊 */
 .product h2{
-    font-size: 5rem;
+    font-size: 30px;
 }
 .product .title{
-    font-size: 3.5rem;
+    font-size: 25px;
 }
 .material{
     text-align:left
@@ -294,46 +293,19 @@ div{
     width: 100%;
 }
 .material p{
-    font-size: 3rem;
+    font-size: 25px;
 }
 .material span{
-    font-size: 3rem;
+    font-size: 30px;
 }
 /*總金額 */
 .total p{
-    margin-top: 2rem;
-    font-size: 4rem;
+    font-size: 25px;
 }
 .total span{
-    font-size: 4.5rem;
+    font-size: 30px;
 }
 }
 
-@media (min-width: 1024px) {
-/*訂購商品資訊 */
-/*純蜜 */
-.product .title{
-    font-size: 3.5rem;
-}
-.material{
-    text-align:left
-}
-.material .img{
-    width: 100%;
-}
-.material p{
-    font-size: 3rem;
-}
-.material span{
-    font-size: 3rem;
-}
-/*總金額 */
-.total p{
-    margin-top: 2rem;
-    font-size: 4rem;
-}
-.total span{
-    font-size: 4.5rem;
-}
-}
+
 </style>

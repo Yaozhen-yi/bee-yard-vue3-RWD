@@ -100,18 +100,17 @@ const submit = () => {
 <style>
 .form{
     text-align: center;
-    font-size: 2rem;
 }
 .form .title{
-  font-size: 2.5rem;
+  font-size: 20px;
   font-weight: 700;
 }
 .form label{
-    margin-right: 1rem;
+    margin-right: 15px;
 }
 .form input{
     border: 2px solid black;
-    margin: 1rem 0;
+    margin: 10px 0;
     text-align: center;
 }
 .form span {
@@ -120,34 +119,34 @@ const submit = () => {
   margin: 0 auto;
 }
 .form .btn{
-  font-size: 2rem;
+  font-size: 20px;
   border: 2px solid black;
   background-color: #f4f4f4;
 }
 .form .btn:hover{
   background-color: #dcd8d8;
-  font-size: 2.5rem;
+  font-size: 25px;
 }
 
 @media (min-width: 768px) {
   .form{
-    font-size: 4rem;
+    font-size: 25px;
 }
 .form .title{
-  font-size: 5rem;
+  font-size: 25px;
 }
 .form span {
   margin: auto;
 }
 .form .btn{
-  font-size: 5rem;
+  font-size: 25px;
   border: 2px solid black;
   background-color: #f4f4f4;
-  margin-top: 2rem;
+  margin-top: 15px;
 }
 .form .btn:hover{
   background-color: #dcd8d8;
-  font-size: 5.5rem;
+  font-size: 30px;
 }
 } 
 </style>

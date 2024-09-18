@@ -535,16 +535,16 @@ const submitForm = () => {
 
 <style>
 .section .tltle{
-    font-size: 3rem;
-    margin-left: 3rem;
+    font-size: 25px;
+    margin-left: 20px;
 }
 .section .list-group{
-    margin: 1rem;
+    margin: 10px;
     list-style: none;
 }
 .section .list-group li{
     width: 100%;
-    font-size: 2rem;
+    font-size: 20px;
     text-align: center;
 }
 .section .list-group li :hover{
@@ -552,96 +552,156 @@ const submitForm = () => {
     color: #5ba3a3f4;
 }
 .section .card-img{
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 .section #pure_hone{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 700;
-    margin-left: 2rem;
-    margin: 2rem;
+    margin-left: 10px;
+    margin: 15px;
 }
 .section .row{
     width: 100%;
 }
 .section .row .title{
     width: 100%;
-    font-size: 2rem;
-    margin-top: 1rem;
+    font-size: 20px;
+    margin-top: 10px;
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 10px;
 }
 .section #gift-box{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 700;
-    margin: 2rem;
+    margin: 10px;
 
 }
 .section #other{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 700;
-    margin-left: 2rem;
-    margin: 2rem;
+    margin-left: 10px;
+    margin: 10px;
 }
 /*下拉式選單*/
 .dropdown-group{
     display: flex;
     width: 100%;
-    font-size: 1rem;
+    font-size: 25px;
     text-align: center;
     flex-direction: column;
 }
 .dropdown-group div{
     width: 100%;
-    margin: 0.5rem 0 ;
 }
 .dropdown-group select{
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 20px;
     border: 1px solid black;
 }
 .dropdown-group input{
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 25px;
 }
 .dropdown-group .mt-2{
   margin: auto;
+  font-size: 20px;
 }
 .dropdown-group .money{
     margin: auto;
 }
 .dropdown-group .money .title{
-   font-size: 2rem;
+   font-size: 20px;
 }
 .dropdown-group .money .result{
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: 700;
     color: red;
 }
 #total{
-    margin-top: 4rem;
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: 700;
     margin: auto;
     text-align: center;
 }
 #total .title{
-  font-size: 3rem;
+  font-size: 30px;
   margin: 0 1rem;
 }
 #total .result{
     color: red;
-    margin: 1rem;
+    margin: 10px;
 }
 #total button{
-    margin: 1rem ;
+    margin: 10px ;
 }
 
 @media (min-width: 768px) {
   .col-sm-6{
     border: 1px solid black;
+}
+}
+
+@media (min-width: 1024px) {
+    .section .tltle{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.section .list-group li{
+    font-size: 25px;
+}
+.section #pure_hone{
+    font-size: 25px;
+    margin: 15px;
+}
+.section .row .title{
+    font-size: 25px;
+}
+.section #gift-box{
+    font-size: 25px;
+    margin: 15px;
+
+}
+.section #other{
+    font-size: 25px;
+    margin: 15px;
+}
+/*下拉式選單*/
+.dropdown-group{
+    font-size: 30px;
+}
+.dropdown-group select{
+    font-size: 30px;
+}
+.dropdown-group input{
+    font-size: 30px;
+}
+.dropdown-group .mt-2{
+  font-size: 25px;
+}
+.dropdown-group .money{
+    margin: auto;
+}
+.dropdown-group .money .title{
+   font-size: 30px;
+}
+.dropdown-group .money .result{
+    font-size: 35px;
+}
+#total{
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+}
+#total .title{
+  font-size: 30px;
+  margin: 0 10px;
+}
+#total .result{
+    font-size: 35px;
 }
 }
 </style>

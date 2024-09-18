@@ -25,39 +25,40 @@
 <style>
 
 .about .title{
-    font-size: 3rem;
-    margin-left: 2rem;
+    font-size: 30px;
+    margin-left: 10px;
 }
 .about .row{
     width: 100%;
 }
 .about .card-img{
-    margin-top: 1rem;
-    margin-left: 0.5rem;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 .text{
-    margin: 1rem;
+    margin: 10px;
 }
 .text .text-description{
-    font-size: 2rem;
+    font-size: 20px;
 }
-@media (min-width: 912px) {
+
+@media (min-width: 1024px) {
     .about .title{
-    font-size: 5rem;
-    margin-left: 2rem;
+    font-size: 35px;
+    margin-left: 20px;
 }
 .about .row{
     width: 100%;
 }
 .about .card-img{
-    margin-top: 1rem;
-    margin-left: 0.5rem;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 .text{
-    margin: 1rem;
+    margin: 25px;
 }
 .text .text-description{
-    font-size: 2.5rem;
+    font-size: 25px;
 }
 }
 

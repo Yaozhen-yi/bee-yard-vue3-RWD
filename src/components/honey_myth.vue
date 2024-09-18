@@ -11,7 +11,7 @@
                 <div class="description">
                   <span class="title">​未結晶蜜:</span><br>
                     <span>
-                    近年來假蜜造假的方式越來越多元，也越來越逼真。其實可以利用透光檢查以及加水搖晃來分辨買的是真蜜還是假蜜。天然蜂蜜因為含有花粉，透光下會看起來有點混濁，而多數人工糖漿製成的蜂蜜沒有花粉，看起來會透明清澈。蜂蜜含有澱粉酶及其他蛋白質，加水用力搖晃會產生細緻且持續很久的泡沫，而以高果糖糖漿及香料等調製而成的假蜜，加水搖晃後泡沫會很快消失。
+                    近年來假蜜造假的方式越來越多元，也越來越逼真。其實可以利用<span style="color: red;">透光檢查以及加水搖晃</span>來分辨買的是真蜜還是假蜜。<span style="color: red; font-weight: 700;">天然蜂蜜</span>因為含有花粉，透光下會看起來<span style="color: red;">有點混濁</span>，而多數<span style="color: red; font-weight: 700">人工糖漿製成</span>的蜂蜜沒有花粉，看起來會<span style="color: red;">透明清澈</span>。蜂蜜含有澱粉酶及其他蛋白質，加水<span style="color: red;">用力搖晃</span>會產生<span style="color: red;">細緻且持續很久的泡沫</span>，而以高果糖糖漿及香料等調製而成的假蜜，加水搖晃後<span style="color: red;">泡沫會很快消失</span>。
                     </span>
                 </div>
             </div>
@@ -22,8 +22,8 @@
                 <div class="description">
                   <span class="title">​結晶蜜:</span><br>
                     <span>
-                    假蜜不等於結晶蜜。
-                    ​蜂蜜中的葡萄糖和果糖等單醣總含量約占60％至70％，其中果糖比例較高的蜂蜜如龍眼蜜，不容易結晶，而葡萄糖比例較高的荔枝蜜、柳橙蜜等，在水分含量低、氣溫低於攝氏13度時，葡萄糖則容易形成晶體，產生結晶現象。反觀合成蜜，因為大多是由糖漿製成，因此不容易結晶。所以，會結晶的蜂蜜才是「真」蜂蜜。
+                    <span style="color: red;">假蜜不等於結晶蜜。</span><br>
+                    ​蜂蜜中的葡萄糖和果糖等單醣總含量約占60％至70％，其中<span style="color: red;">果糖比例較高</span>的蜂蜜如龍眼蜜，<span style="color: red;">不容易結晶</span>，而<span style="color: red;">葡萄糖比例較高</span>的荔枝蜜、柳橙蜜等，<span style="color: red;">在水分含量低、氣溫低於攝氏13度</span>時，<span style="color: red;">葡萄糖則容易形成晶體，產生結晶現象</span>。反觀<span style="color: red; font-weight: 700;">合成蜜</span>，因為大多是<span style="color: red;">由糖漿製成</span>，因此<span style="color: red;">不容易結晶</span>。所以，<span style="color: red;">會結晶的蜂蜜才是「真」蜂蜜。</span>
                     </span>
                 </div>
             </div>
@@ -34,7 +34,7 @@
 <style>
 
 .section h3{
-    font-size: 3rem;
+    font-size: 20px;
     text-align: center;
 }
 .section .row{
@@ -43,9 +43,9 @@
     margin-left: 1%;
 }
 .section .row .img-title{
-    font-size: 2rem;
+    font-size: 25px;
     text-align: center;
-    margin: 1rem;
+    margin: 10px;
     font-weight: 700;
 }
 .section .img{
@@ -53,24 +53,25 @@
 }
 .section .row .description{
     border: 5px solid #4645452b;
-    margin: 1rem 1.5rem;
+    margin: 10px 15px;
 }
 .section .row .description .title{
     font-weight: 700;
 }
 .section .row .description span{
-    font-size: 2rem;
-    margin-left: 2rem;
+    font-size: 25px;
+    margin-left: 10px;
 }
 
-@media (min-width: 540px) {
-  .section .tltle{
-    margin-left: 32%;
-}
-}
+
 @media (min-width: 768px) {
+    
+.section h3{
+    font-size: 30px;
+    text-align: center;
+}
   .section .tltle{
-    font-size: 3.5rem;
+    font-size: 35px;
     margin-left: 37%;
 }
 }

@@ -15,27 +15,12 @@ import Footer from './components/footer.vue'
 
 <style scoped>
 main{
-  margin-top: 10rem;
+  margin-top: 130px;
 }
 @media (min-width: 768px) {
   main{
-  margin-top: 12rem;
+  margin-top: 160px;
 }
 }
-@media (min-width: 912px) {
-  main{
-  margin-top: 12rem;
-}
-}
- 
- @media (min-width: 1024px) {
-  main{
-  margin-top: 10rem;
-}
- }
- @media (min-width: 1240px) {
-  main{
-  margin-top: 12rem;
-}
- }
+
 </style>

@@ -35,8 +35,8 @@
 
 <style>
 .container-fluid {
-    margin: 2rem;
-    font-size: 2rem;
+    margin: 20px;
+    font-size: 20px;
     text-align: center;
 }
 .navbar-brand{
@@ -47,43 +47,46 @@
     margin: 0 5%;
 }
 .title{
-    font-size: 2rem;
+    font-size: 30px;
+    margin-left: 20px;
 }
 .nav-item{
-    font-size: 2.5rem;
+    font-size: 30px;
 }
 @media screen and (min-width: 768px) {
-    .navbar-brand{
+    /* .navbar-brand{
     align-items: center;
     margin: 0 25%;
     width: 100px;
-}
+} */
 .navbar-brand img{
     width: 100px;
     height: 88px;
     margin: 0 10%;
 }
 .title{
-    font-size: 3rem;
+    font-size: 30px;
+    margin-left: 60px;
 }
 .nav-item{
-    font-size: 3.5rem;
+    font-size: 35px;
 }
 }
 
 @media screen and (min-width: 1024px) {
     .navbar-brand{
-        margin-left:35px;
+        margin-left:30px;
         text-align: center;
-        height: 64px;
+        height: 75px;
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 30px;
+    margin-left: 0;
 }
 .navbar-nav{
     width: 100%;
-    margin: 2% 25%;
+    margin: 10px 50px;
 }
 .nav-item{
         margin: 0 2%;
@@ -98,7 +101,7 @@
         height: 64px;
 }
 .title{
-    font-size: 3rem;
+    font-size: 35px;
 }
 .navbar-nav{
     width: 100%;
@@ -106,7 +109,7 @@
 }
 .nav-item{
         margin: 0 2%;
-        font-size: 2.5rem;
+        font-size: 30px;
     }
 }
 
